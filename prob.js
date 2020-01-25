@@ -30,5 +30,6 @@ for (var i = 0;  i < finalResult.length; i++) {
     }
 }
 
+
 // 確率を計算する
 alert(trued/finalResult.length) 
