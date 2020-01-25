@@ -99,8 +99,6 @@ for i in range(100000):
 
 
 
-
-
 print(collectionA.count(True)/len(collectionA))
 print(collectionB.count(True)/len(collectionB))
 print(collectionC.count(True)/len(collectionC))
@@ -136,36 +134,35 @@ y5=[collectionC50.count(True)/50,
 
 y6=[theory3,theory3,theory3,theory3,theory3]
 
-pyplot.plot(x,y)
 
-pyplot.plot(x,y2)
-
+pyplot.plot(x,y, label="Experimental")
+pyplot.plot(x,y2, label="Theoretical")
 pyplot.title('Problem1')
-pyplot.xlabel('Number of Try')
+pyplot.xlabel('Number of Tries')
 pyplot.ylabel('Probability')
-
+pyplot.legend()
 
 pyplot.show()
 
-pyplot.plot(x,y3)
 
-pyplot.plot(x,y4)
 
+pyplot.plot(x,y3, label="Experimental")
+pyplot.plot(x,y4, label="Theoretical")
 pyplot.title('Problem2')
-pyplot.xlabel('Number of Try')
+pyplot.xlabel('Number of Tries')
 pyplot.ylabel('Probability')
-
+pyplot.legend()
 
 pyplot.show()#忘れない
 
-pyplot.plot(x,y5)
 
-pyplot.plot(x,y6)
 
+pyplot.plot(x,y5, label="Experimental")
+pyplot.plot(x,y6, label="Theoretical")
 pyplot.title('Problem3')
-pyplot.xlabel('Number of Try')
+pyplot.xlabel('Number of Tries')
 pyplot.ylabel('Probability')
-
+pyplot.legend()
 
 pyplot.show()#忘れない
 
