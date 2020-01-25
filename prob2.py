@@ -2,6 +2,7 @@ import random
 random.random
 game=[]
 
+
 def onetime():
     list=[]
     
