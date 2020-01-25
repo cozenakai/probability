@@ -6,6 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+matplotlib = "*"
+//最新のバージョウンを入れてるだけ　==でバージョン指定可能
 
 [requires]
 python_version = "3.7"
