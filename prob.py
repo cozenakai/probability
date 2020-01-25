@@ -4,7 +4,7 @@ from matplotlib import pyplot
 random.random()
 
 theory1= 55/216
-theory2=108/216
+theory2=(3+10+21+27+25+15+6+1)/216
 theory3=25/216
 
 collectionA50=[]
