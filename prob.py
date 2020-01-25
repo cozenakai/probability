@@ -158,7 +158,6 @@ pyplot.ylabel('Probability')
 
 pyplot.show()#忘れない
 
-
 pyplot.plot(x,y5)
 
 pyplot.plot(x,y6)
