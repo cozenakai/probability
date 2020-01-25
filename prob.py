@@ -1,4 +1,6 @@
 import random
+import numpy as np
+from matplotlib import pyplot
 random.random()
 collectionA=[]
 collectionB=[]
@@ -50,6 +52,23 @@ for i in range(100000):
 print(collectionA.count(True)/len(collectionA))
 print(collectionB.count(True)/len(collectionB))
 print(collectionC.count(True)/len(collectionC))
+
+
+
+
+x= np.linspace(50,1000000,10)
+y= 55/216
+
+
+
+pyplot.plot(x, y, label="1st theooretical")
+
+pyplot.title('Probability')
+pyplot.xlabel('Number of Try')
+pyplot.ylabel('Probability')
+
+plt.legend()
+pyplot.show()
 
 
 
